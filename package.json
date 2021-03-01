@@ -1,0 +1,27 @@
+{
+  "name": "any-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf lib && webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.31",
+    "awesome-typescript-loader": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "glob": "^7.1.6",
+    "jest": "^26.6.3",
+    "path": "^0.12.7",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.5.2",
+    "typescript": "^4.2.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "4",
+    "webpack-cli": "^4.5.0",
+    "ts-node": "^9.1.1"
+  }
+}
