@@ -1,5 +1,10 @@
 type IFn = <T extends string | number>(a: T, b: T) => string;
 
+/**
+ * add function for big num
+ * @param {string | numner} a first num
+ * @param {string | numner} b sec num
+ */
 const bigNumAdd: IFn = (a, b) => {
   let n1 = a.toString();
   let n2 = b.toString();
